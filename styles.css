@@ -1,11 +1,12 @@
 :root {
     --cor-base: #85ccc0;
+    --branco:var(--branco)
   }
   html {
     background-color: var(--cor-base);
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
-    color: rgb(247, 247, 247);
+   
 }
   
   
