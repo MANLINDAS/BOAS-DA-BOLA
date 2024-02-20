@@ -1,10 +1,10 @@
 :root {
     --cor-base: #85ccc0;
-    --branco:#f100a1cb;
+    --branco:#ffffffcb;
   }
   html {
     background-color: var(--cor-base);
-    color: var(--rosa);
+    color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
    
 }
