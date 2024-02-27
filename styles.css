@@ -1,17 +1,20 @@
 :root {
-    --cor-base: #85ccc0;
-    --branco:#f1f1f1cb;
-    --preto:black;
-  }
-  html {
-    background-color: var(--cor-base);
-    color: var(--preto);
-    font-family: 'Chakra Petch', sans-serif;
-   
+  --cor-base: #85ccc0;
+  --branco: #f1f1f1cb;
+  --preto: black;
 }
-.ladinho{background-color: var(--branco);
-  display: flex;
-} 
 
-  
-  
+html {
+  background-color: var(--cor-base);
+  color: var(--preto);
+  font-family: 'Chakra Petch', sans-serif;
+
+}
+
+.ladinho {
+  background-color: var(--branco);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
