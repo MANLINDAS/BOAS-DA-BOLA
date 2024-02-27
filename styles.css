@@ -1,6 +1,6 @@
 :root {
     --cor-base: #85ccc0;
-    --branco:#f30aadcb;
+    --branco:#f1f1f1cb;
   }
   html {
     background-color: var(--cor-base);
