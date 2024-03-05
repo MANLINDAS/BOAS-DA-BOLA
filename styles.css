@@ -19,5 +19,5 @@ html {
 
 }
 #texto{ 
-  color: blue;
+  color: var(--cor-base);
 }
