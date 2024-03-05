@@ -7,7 +7,7 @@ while(nomeUsuario == ""){
 }
 
 if(nomeUsuario == null) {
-    anterior.textContent = 'Nathalia';
+    anterior.textContent = 'NATHALIA';
 } else{
     anterior.textContent = nomeUsuario;
 }
