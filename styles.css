@@ -21,3 +21,60 @@ html {
 #texto{ 
   color: blanchedalmond ;
 }
+body {
+  text-align: center;
+  font-family:'times New Roman', Times, serif;
+}
+
+h1 {
+  margin-top: 100px;
+}
+
+.ladinho {
+  position:relative;
+  display: block;
+}
+
+.nomes {
+  position:absolute;
+  top: 65%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  color: blue(124, 0, 0);
+  text-shadow: 2px 2px 4px blue(206, 82, 82, 0.7); 
+}
+
+.img {
+  max-width: 89%;
+  height: auto;
+  display: block;
+}
+
+.contagem{
+  background-color: black;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.objetivos{
+  padding: 20px;
+  font-size: 12,53px;
+}
+
+.ativo{
+  background-color: aquamarine;
+  color: black;
+}
+
+.aba-conteudo{
+  
+  color: azure;
+
+  .aba-conteudo{
+    display: none;
+  }
+
+  .ativa{
+    display: block;
+    font-size: 20px;
+  }
