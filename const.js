@@ -16,13 +16,24 @@ for (let x = 0; x < botoes.length; x++) {
     }
 }
 
-const contadores  = document.querySelectorAll('.contador');
+const contadores = document.querySelectorAll('.contador');
 
 let tempoAtual = new Date();
-let tempoObjetivo = new Date('2024-04-28T00:00:00');
-let tempoFinal = tempoObjetivo1 - tempoAtual;
+let tempoObjetivo1 = new Date('2034-04-26T00:00:00')
+let tempoobjetivo2 = new Date('2029-07-22T00: 00: 00');
+let tempoobjetivos3 = new Date('2026-04-27T00:00:00');
+let tempoobjetivo4 = new Date('2890-12-15T00:00:00');
 
-let segundos = Math.floor(tempoFinal/ 1000);
+let tempos = [tempoObjetivo1, tempoobjetivo2, tempoobjetivos3, tempoobjetivo4]
+
+for( let i=0; i < contadores.length; i++){
+    contadores[i].textContent = calculatempo(tempos[i]);
+}
+function calculatempo(tempoObjetivo){
+    let tempoFinal = tempoObjetivo - tempoAtual;
+}
+
+let segundos = Math.floor(tempoFinal / 1000);
 let minutos = Math.floor(segundos / 60);
 let horas = Math.floor(minutos / 60);
 let dias = Math.floor(horas / 24);
